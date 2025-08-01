@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim"; 
+import { loadSlim } from "tsparticles-slim";
 
 export default function ParticleBackground() {
   const particlesInit = useCallback(async (engine) => {
@@ -26,7 +26,7 @@ export default function ParticleBackground() {
           },
           modes: {
             repulse: {
-              distance: 100,
+              distance: 130,
               duration: 0.4,
             },
           },
@@ -46,8 +46,8 @@ export default function ParticleBackground() {
             speed: 1,
             outModes: { default: "bounce" },
           },
-          number: { value: 100 },
-          opacity: { value: 0.5 },
+          number: { value: 140 },
+          opacity: { value: 2.5 },
           shape: { type: "circle" },
           size: { value: { min: 1, max: 4 } },
         },
